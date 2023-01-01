@@ -1,0 +1,80 @@
+.cascading-right {
+  margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+  .cascading-right {
+    margin-right: 0;                                                                                                                                                    
+  }
+}
+#c{
+  background: hsla(226, 61%, 71%, 0.55);
+              backdrop-filter: blur(30px);
+}
+
+  input:invalid {
+    background-color: rgb(219, 137, 137)
+  }
+
+  #btn{
+   background-color: blueviolet;
+   border-color: blueviolet;
+  }
+  .bg-image{
+    filter: blur(8px);
+    background-position: center;
+  }
+  .bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 40%;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  #mescours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+  }
+  #mescours div {
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+   
+  }
+  
+  #mescours img {
+    margin-top: 8%;
+    height: 200px;
+    width: 200px;
+  }
+  
+  #mescours div h3 {
+    font-size: 90%;
+  }
+  
+  #grandtitre{
+    text-align: center;
+    
+    width: 50vw;
+    
+  }
+
+  .btn2{
+    text-align: center;
+    height: 40vh;
+    width: 50vw;
+     
+  }
